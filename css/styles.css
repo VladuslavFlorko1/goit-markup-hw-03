@@ -247,13 +247,16 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 
 font-weight: 500;
-font-size: 20px;    
+font-size: 20px; 
+padding-bottom: 8px;   
 }
+.portfolio-list-item-image{padding-bottom: 32px;}
 .portfolio-list-item-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 font-weight: 400;
 font-size: 16px;    
+padding-bottom: 32px;
 }
 .portfolio-border{border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
