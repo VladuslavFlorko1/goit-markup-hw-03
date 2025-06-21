@@ -130,17 +130,12 @@ margin-left: auto;}
 .border-button:focus {
     background-color: #404BBF
 }
-.buttom-div-border{padding-bottom: 188px;}
+.buttom-div-border{padding-bottom: 188px;
+margin-bottom: 306px;}
 /*-----------border-end----------*/
 /*-----------excellence----------start*/
 .excellence-title {
-   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -177,6 +172,7 @@ margin-left: auto;}
   flex-wrap: wrap;
   justify-content: center;
  padding-bottom: 120px;
+ margin-bottom: 240px;
  
 }
 
@@ -230,7 +226,8 @@ padding-bottom: 32px;
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
-padding-bottom: 120px;}
+padding-bottom: 120px;
+}
 .portfolio-title {
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -239,7 +236,6 @@ text-align: center;
 font-weight: 700;
 font-size: 36px;  
 text-transform: capitalize;   
-padding-top: 120px;
 padding-bottom: 72px; 
 }
 .portfolio-list-item-subtitle{
