@@ -195,25 +195,29 @@ img {
 
 /*-----------border-end----------*/
 /*-----------excellence----------start*/
-.excellence-container {
-    padding: 120px 0
+
+.excellence {
+    padding: 120px 0;
 }
 
-.excellence-title {
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .excellence-list {
-flex-basis: calc((100% - 3 * 24px) / 4);
     display: flex;
     gap: 24px;
 
 }
-
+excellence-list-item{width: calc((100% - 72px) / 4);}
 .excellence-list-item-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -349,7 +353,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    display: inline-block; 
     font-weight: 700;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
